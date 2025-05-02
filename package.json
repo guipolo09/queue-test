@@ -1,0 +1,14 @@
+{
+  "name": "rabbitmq-node-app",
+  "version": "1.0.0",
+  "description": "Exemplo de uso do RabbitMQ com Node.js",
+  "main": "producer.js",
+  "scripts": {
+    "start:producer": "node producer.js",
+    "start:consumer": "node consumer.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.5.0"
+  }
+}
